@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "MYSDK",
+    name: "NEWMYSDK",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "MYSDK",
-            targets: ["MYSDK"]),
+            name: "NEWMYSDK",
+            targets: ["NEWMYSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,6 +21,6 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "MYSDK", url: "https://github.com/PritKothadiya/IOS-Framework-Host/releases/download/0.0.1/MYSDK.xcframework.zip", checksum: "2b4fee1f22a9de769d901fbc1e16996ace17ae09b656dd440ed09f62b89b5ce3")
+        .binaryTarget(name: "NEWMYSDK", url: "https://github.com/PritKothadiya/IOS-Framework-Host/releases/download/0.0.1/MYSDK.xcframework.zip", checksum: "2b4fee1f22a9de769d901fbc1e16996ace17ae09b656dd440ed09f62b89b5ce3")
     ]
 )

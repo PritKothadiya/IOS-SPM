@@ -21,6 +21,6 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "MYSDK", url: "https://github.com/PritKothadiya/IOS-Framework-Host/blob/main/MYSDK.xcframework.zip", checksum: "64760a8eb8b71a8406dc0d5745ab2e9609c5ed825ae2d4cf91e5242525705bab")
+        .binaryTarget(name: "MYSDK", url: "https://github.com/PritKothadiya/IOS-Framework-Host/blob/main/MYSDK.xcframework.zip", checksum: "2b4fee1f22a9de769d901fbc1e16996ace17ae09b656dd440ed09f62b89b5ce3")
     ]
 )
